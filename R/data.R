@@ -9,14 +9,15 @@
 #' \item{PROFILE_ID}{The unique identifier of the soil profile}
 #' \item{PROFILE_LONGITUDE}{Longitude of the soil profile}
 #' \item{PROFILE_LATITUDE}{Latitude of the soil profile}
+#' \item{DATASET}{Denotes the dataset that the sample is associated with}
 #' }
 #'
 "scotland_locations"
 
 #' Scottish XRPD data
 #'
-#' A data frame of 781 columns containing XRPD data. First column is the
-#' 2theta axis, followed by 781 columns of count intensities, with sample IDs
+#' A data frame of 775 columns containing XRPD data. First column is the
+#' 2theta axis, followed by 774 columns of count intensities, with sample IDs
 #' as column names.
 #'
 #' @format A data frame

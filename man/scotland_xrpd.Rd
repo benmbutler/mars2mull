@@ -11,8 +11,8 @@ A data frame
 scotland_xrpd
 }
 \description{
-A data frame of 781 columns containing XRPD data. First column is the
-2theta axis, followed by 781 columns of count intensities, with sample IDs
+A data frame of 775 columns containing XRPD data. First column is the
+2theta axis, followed by 774 columns of count intensities, with sample IDs
 as column names.
 }
 \keyword{datasets}

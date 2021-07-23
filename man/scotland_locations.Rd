@@ -11,6 +11,7 @@ A data frame
 \item{PROFILE_ID}{The unique identifier of the soil profile}
 \item{PROFILE_LONGITUDE}{Longitude of the soil profile}
 \item{PROFILE_LATITUDE}{Latitude of the soil profile}
+\item{DATASET}{Denotes the dataset that the sample is associated with}
 }
 }
 \usage{
