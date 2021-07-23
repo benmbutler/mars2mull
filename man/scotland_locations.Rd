@@ -6,6 +6,12 @@
 \title{Profile locations of the Scottish soil samples}
 \format{
 A data frame
+\describe{
+\item{SAMPLE_ID}{The unique identifier of the sampled soil horizon}
+\item{PROFILE_ID}{The unique identifier of the soil profile}
+\item{PROFILE_LONGITUDE}{Longitude of the soil profile}
+\item{PROFILE_LATITUDE}{Latitude of the soil profile}
+}
 }
 \usage{
 scotland_locations

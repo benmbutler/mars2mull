@@ -4,6 +4,12 @@
 #' Scottish soil samples.
 #'
 #' @format A data frame
+#' \describe{
+#' \item{SAMPLE_ID}{The unique identifier of the sampled soil horizon}
+#' \item{PROFILE_ID}{The unique identifier of the soil profile}
+#' \item{PROFILE_LONGITUDE}{Longitude of the soil profile}
+#' \item{PROFILE_LATITUDE}{Latitude of the soil profile}
+#' }
 #'
 "scotland_locations"
 
@@ -34,6 +40,13 @@
 #' Online (https://pds-geosciences.wustl.edu/msl/msl-m-chemin-4-rdr-v1/) on 14.07.21.
 #'
 #' @format A data frame
+#' \describe{
+#' \item{SITE_NAME}{The name of the site sampled on Mars}
+#' \item{PRODUCT_ID}{The unique identifier for the processed XRPD data}
+#' \item{SAMPLE_TYPE}{Either 'Scoop' or 'Drill`}
+#' \item{SOL_START}{The sol (i.e. Martian day number) that data upload started}
+#' \item{SOL_END}{The sol (i.e. Martian day number) that data upload ended}
+#' }
 #'
 "mars_id"
 

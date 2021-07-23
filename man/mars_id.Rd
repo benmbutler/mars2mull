@@ -6,6 +6,13 @@
 \title{Product IDs and site names of Mars Science Laboratory XRPD data}
 \format{
 A data frame
+\describe{
+\item{SITE_NAME}{The name of the site sampled on Mars}
+\item{PRODUCT_ID}{The unique identifier for the processed XRPD data}
+\item{SAMPLE_TYPE}{Either 'Scoop' or 'Drill`}
+\item{SOL_START}{The sol (i.e. Martian day number) that data upload started}
+\item{SOL_END}{The sol (i.e. Martian day number) that data upload ended}
+}
 }
 \usage{
 mars_id
